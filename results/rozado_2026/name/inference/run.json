@@ -1,0 +1,238 @@
+{
+  "status": "complete",
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "input_outputs": [
+    {
+      "file": "data/processed/rozado_2026/name/observations.csv.gz",
+      "bytes": 76827251,
+      "sha256": "b8878fc08bb58b7d902f4e842df226d1be9572f44b1c24b568360c851abea688"
+    },
+    {
+      "file": "data/processed/rozado_2026/name/pairs.csv.gz",
+      "bytes": 873694,
+      "sha256": "11a82bd36e35d4afb49f82fa936e9df2542d1c0c2581c450905b2a05866df299"
+    }
+  ],
+  "cleaning_report_sha256": "ab2dfeff3d16cdbac7cafd2efcbec53ca64403116296e29e9cca2b633ea0835a",
+  "spec_sha256": "473b8df9e18d6fc96dda55af7a7a092471e4eba8469feff0e03c88b698eb17a0",
+  "code_hashes": {
+    "src/analysis/infer_rozado_name.py": "276472149f807b39f6996cffae5ca725dd8b4a4d616d7ce411d6b73d9474997f",
+    "src/clean/clean_rozado_name.py": "1b3bd0ab0f3e9b30f81323be9a6298c3b9c1fd210403f693c94ab7576828193a",
+    "src/ingest/collect_rozado.py": "f3e968780b6b70158518c1e11b0eb6c47f23981e712784a5c671963b59679454"
+  },
+  "provenance": [
+    {
+      "model_name": "Qwen/Qwen2-VL-72B-Instruct",
+      "source_member": "experiment_name/Qwen_Qwen2-VL-72B-Instruct.csv",
+      "source_member_sha256": "e94cadd931ecfc12bd191b7be4ea18a32ae4dbe7cf12a7612863d410d0312ccb",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "claude-3-5-haiku-20241022",
+      "source_member": "experiment_name/claude-3-5-haiku-20241022.csv",
+      "source_member_sha256": "ef5ba4bed812403ecb0a4ca1f7e783ff73232520794d225ec8070ff08e4857eb",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "claude-3-5-sonnet-20241022",
+      "source_member": "experiment_name/claude-3-5-sonnet-20241022.csv",
+      "source_member_sha256": "924b6af1cc1c2e11f91d3ae51f3160d870d3e7aceeddf12a8d0df61208a3c57b",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "deepseek-ai/DeepSeek-R1",
+      "source_member": "experiment_name/deepseek-ai_DeepSeek-R1.csv",
+      "source_member_sha256": "21b6382e3a5e9237bc4af333bcfa4eb2b2cda56eb1ade0e99be9409cb897fb3b",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "deepseek-ai/DeepSeek-V3",
+      "source_member": "experiment_name/deepseek-ai_DeepSeek-V3.csv",
+      "source_member_sha256": "bf599689aab49c42bbd3ceadd86f2de94cbfb7e8ecd1617fd3d0870089d04782",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gemini-1.5-flash",
+      "source_member": "experiment_name/gemini-1.5-flash.csv",
+      "source_member_sha256": "8a81d7eeb1f97b2dc3202a9ef2b7b62f722211b83783ed9aed052ddff4b24836",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gemini-1.5-pro",
+      "source_member": "experiment_name/gemini-1.5-pro.csv",
+      "source_member_sha256": "1d8ff16690e53177a15b27c7769ccb351a4872b3b12efb8d5b3d4db0b3503cfa",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gemini-2.0-flash-thinking-exp-01-21",
+      "source_member": "experiment_name/gemini-2.0-flash-thinking-exp-01-21.csv",
+      "source_member_sha256": "98676f610529a7fe67a42d765c6534549759631c6afb87ed99a64238361fb3bf",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gemini-2.0-flash",
+      "source_member": "experiment_name/gemini-2.0-flash.csv",
+      "source_member_sha256": "d95b22b7b040bbfff98daf3b504b4685dc8210c79a85f7761b0ddc91818473bd",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "google/gemma-2-27b-it",
+      "source_member": "experiment_name/google_gemma-2-27b-it.csv",
+      "source_member_sha256": "f6b18f77251bb3dad369d4512fbaa46516b1bc836c52fdbb0ea84b6ef70c6d5c",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "google/gemma-2-9b-it",
+      "source_member": "experiment_name/google_gemma-2-9b-it.csv",
+      "source_member_sha256": "d65b6568d18f008f1c9c1556d5c96fff52d621590d6d8fd0d187f52940251edf",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gpt-3.5-turbo",
+      "source_member": "experiment_name/gpt-3.5-turbo.csv",
+      "source_member_sha256": "2084767267e514e6c4a9d4716702e9e2eca851f3d4161efee99b78db5f3a5c5d",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gpt-4o-mini",
+      "source_member": "experiment_name/gpt-4o-mini.csv",
+      "source_member_sha256": "3eb9ece94493dc2f3a952ccae18e9d498784bb46230f94974a6caac89a4d09cf",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "gpt-4o",
+      "source_member": "experiment_name/gpt-4o.csv",
+      "source_member_sha256": "cbef93159cbfaa3d535d4776f128e67eecce76c4784cd3b53a9083c89eccdbcd",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "grok-2-1212",
+      "source_member": "experiment_name/grok-2-1212.csv",
+      "source_member_sha256": "9ad67527240da7711067c58893075cb32ef9a84ceed24cfa0a87544e4d2ed925",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "source_member": "experiment_name/meta-llama_Llama-3.3-70B-Instruct-Turbo.csv",
+      "source_member_sha256": "1b214c0184828b6e0303833d36571666b9a41ad0829448f3fce966b373834539",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+      "source_member": "experiment_name/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo.csv",
+      "source_member_sha256": "a892605ef4f332a2d5f1a95bb5f5fefe5c54e6e22febdf6d96589cb1ccb3bdad",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "source_member": "experiment_name/meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo.csv",
+      "source_member_sha256": "ba4c327e6fa1eaf0d9b4cc32c472c317d2b13e2211ed1dfc78c2b325c96ff235",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "mistralai/Mistral-7B-Instruct-v0.3",
+      "source_member": "experiment_name/mistralai_Mistral-7B-Instruct-v0.3.csv",
+      "source_member_sha256": "94d92bebfa15d6715068292fb4c8db2491343832a3f4ef5fe40f497a22cfaad9",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "source_member": "experiment_name/mistralai_Mixtral-8x22B-Instruct-v0.1.csv",
+      "source_member_sha256": "44a4426985f525a47f2a689abd28c421a19969b0b25f5957e6bb0683cc4adb28",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "o1-mini",
+      "source_member": "experiment_name/o1-mini.csv",
+      "source_member_sha256": "5f0114e62664d94c73d1f2e84fe491db171131e7b61818977ee0af7d9e21b459",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    },
+    {
+      "model_name": "o3-mini",
+      "source_member": "experiment_name/o3-mini.csv",
+      "source_member_sha256": "9bc4f7e46338ef4bcbb84936db82cbe0a1e178cb563339373e8978f254b4a4c6",
+      "source_archive": "data/raw/rozado_2026/zenodo_17173798/experimental data.rar",
+      "source_archive_sha256": "3c2fd0271d884edbf87eb1ded62c309ccc6011795dae1fc5241342fb8c7f8d71",
+      "dataset_doi": "10.5281/zenodo.17173798"
+    }
+  ],
+  "settings": {
+    "null": 0.5,
+    "alpha": 0.05,
+    "cluster": "profession",
+    "test": "two-sided t(G-1); intercept-only CR1",
+    "family_size": 22,
+    "interval": "pointwise 95%"
+  },
+  "outputs": [
+    {
+      "file": "figures/rozado_2026/name/inference/primary_estimates.png",
+      "sha256": "93ce0cad0abcbf5ca2ce6471aa787aecd4636d4134991005525de0dedbafc88f"
+    },
+    {
+      "file": "figures/rozado_2026/name/inference/primary_estimates.svg",
+      "sha256": "b4b38c42ab26bee155d2754da4340d9124660f5a3bd569fec7f3ff4f0ae7aff7"
+    },
+    {
+      "file": "results/rozado_2026/name/inference/consistent_rows_descriptive.csv",
+      "sha256": "ef15445b29fc80bf24c6676fd42adbb26beb8e931d1b7ae7f4dade49ffacd053"
+    },
+    {
+      "file": "results/rozado_2026/name/inference/estimates.csv",
+      "sha256": "bc5e8c16b49fb45f8c5f78bcb7780d30d22f77c6d474b24a02bb30ccb9454ef0"
+    },
+    {
+      "file": "results/rozado_2026/name/inference/pair_outcomes.csv.gz",
+      "sha256": "11a243c7622a202c23d8d7a3bf6f7eacd224d131829a401c83e238663b676822"
+    }
+  ]
+}

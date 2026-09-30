@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "inputs": {
+    "data/metadata/rozado_2026/order_masking_cleaning_report.json": "c743210e33958db5995b7e451d477533892a60807fb99a2f0e816ed9f5c144dd",
+    "data/processed/rozado_2026/order_masking/observations.csv.gz": "c73801696c25cd0bd088ebc2d3a03e02dfac85bb879ec24ecd4a1ddf93f4fb38"
+  },
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1"
+  },
+  "spec_sha256": "c4289e48bb63f619357f8463bba14f43e2cb0598865cde0fb2f88848206f1d60",
+  "code_hashes": {
+    "src/analysis/infer_rozado_order_masking.py": "8220c8e4e92f92c0aed3c706be61d6bd3bb7706c2447de2e5cd8f372e17a9c40",
+    "src/clean/clean_rozado_name.py": "1b3bd0ab0f3e9b30f81323be9a6298c3b9c1fd210403f693c94ab7576828193a",
+    "src/ingest/collect_rozado.py": "f3e968780b6b70158518c1e11b0eb6c47f23981e712784a5c671963b59679454"
+  },
+  "outputs": [
+    {
+      "file": "results/rozado_2026/order_masking/coverage.csv",
+      "sha256": "e66554d72d2b3debfb49a861988d2c6adbb15fc274f13e428d14b842ad0daf9a"
+    },
+    {
+      "file": "results/rozado_2026/order_masking/estimates.csv",
+      "sha256": "fdd63b030c50ddf3153e47ce77aabc85b941e16995ee21b1a57c8a139b6833dd"
+    },
+    {
+      "file": "results/rozado_2026/order_masking/matched_pair_changes.csv.gz",
+      "sha256": "755d8d6323e211f4d64204653c8431a12c59e8c9788769f002e03c06faed6e6b"
+    },
+    {
+      "file": "results/rozado_2026/order_masking/pair_outcomes.csv.gz",
+      "sha256": "16a88412dcaa6b4a1ab5c4b244b40d4e8ac09941a1b17b1720288ef703b0d1f4"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb1533a40a3df3fefd74c1",
+    "name": "ReadMe.txt",
+    "version": 1,
+    "bytes": 443,
+    "url": "https://osf.io/download/m3qw6/",
+    "upstream_hashes": {
+      "md5": "9777530bbca03f5264e8bbb0bd57ae01",
+      "sha256": "2f51022e2278d7a871ebf4ef211797276bed1b4126039e28e248266d9916f75d"
+    },
+    "status": "verified",
+    "retrieved_at_utc": "2026-09-13T08:27:35.692096+00:00",
+    "sha256": "2f51022e2278d7a871ebf4ef211797276bed1b4126039e28e248266d9916f75d",
+    "local_path": "data/raw/pnas_2025/ReadMe.txt",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_documentation_or_code"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cbc30c8527462368c9b9c0",
+    "name": "Code.do",
+    "version": 1,
+    "bytes": 35035,
+    "url": "https://osf.io/download/4a9su/",
+    "upstream_hashes": {
+      "md5": "2b141fc4fd58f7151ff20463b481611a",
+      "sha256": "91bbbca2cfe700c425de4bdb2fba837a7fa1dbc58ad1f347aa93300806cb249e"
+    },
+    "status": "verified",
+    "retrieved_at_utc": "2026-09-13T08:27:41.003976+00:00",
+    "sha256": "91bbbca2cfe700c425de4bdb2fba837a7fa1dbc58ad1f347aa93300806cb249e",
+    "local_path": "data/raw/pnas_2025/Code.do",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_documentation_or_code"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb159c79b5f162060409c8",
+    "name": "data_score_4models.dta",
+    "version": 1,
+    "bytes": 21993856,
+    "url": "https://osf.io/download/2t9xv/",
+    "upstream_hashes": {
+      "md5": "9320967bb5afb2539785756970ffb460",
+      "sha256": "db86face1e1d7f051070f217cbb8d05762554fa0eb43daedac15774dc1aad47e"
+    },
+    "status": "verified",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "retrieved_at_utc": "2026-09-13T08:28:27.736229+00:00",
+    "sha256": "db86face1e1d7f051070f217cbb8d05762554fa0eb43daedac15774dc1aad47e",
+    "local_path": "data/raw/pnas_2025/data_score_4models.dta",
+    "resolved_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/db86face1e1d7f051070f217cbb8d05762554fa0eb43daedac15774dc1aad47e?response-content-disposition=attachment%3B%20filename%3D%22data_score_4models.dta%22%3B%20filename%2A%3DUTF-8%27%27data_score_4models.dta&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1789288164&Signature=DpMHB5332buOuQlO2JQ%2BJkD6eqk5R5QeSg8aDwpapobsvx4%2F%2FAOkh0XrO1WDhFXDwLlgYKR%2BLySXTK1qZSrfybIrXIH6ZcDuiciKjzb11V3Y4A99%2BzZ76WkBz6QK5ad%2FqJfv9S8NyasHor9wxxoqUOzdNboiYxGSJyDD%2BeN%2FCBXbD%2BdhDraaRZxBoDuLEX7G5xwNHhDIoW3KaqWWtd4z2gvyiH%2BLL14kD631Eq%2Bmv90ktHcKKseIExj3INBGyucjHwLqoEE0%2F32CwBD2eJq%2F9m9Pm7MSJSXMlF%2FrF6vRVFJHFsBJ3eVYXddMM%2FcNRH%2BlNVDCisUfXT3GYWWysfs2SQ%3D%3D",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_replication_observations"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb1531530a594c95c9c556",
+    "name": "data_gpt35_heter.dta",
+    "version": 1,
+    "bytes": 21368271,
+    "url": "https://osf.io/download/sq6j3/",
+    "upstream_hashes": {
+      "md5": "b9dbbdce7ec5925386a8c70f6b429d32",
+      "sha256": "510a4a1cac21357484d274a2fa0edf2d81e646f0b65eabede0f73e947c87d150"
+    },
+    "status": "verified",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "retrieved_at_utc": "2026-09-13T08:28:31.330571+00:00",
+    "sha256": "510a4a1cac21357484d274a2fa0edf2d81e646f0b65eabede0f73e947c87d150",
+    "local_path": "data/raw/pnas_2025/data_gpt35_heter.dta",
+    "resolved_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/510a4a1cac21357484d274a2fa0edf2d81e646f0b65eabede0f73e947c87d150?response-content-disposition=attachment%3B%20filename%3D%22data_gpt35_heter.dta%22%3B%20filename%2A%3DUTF-8%27%27data_gpt35_heter.dta&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1789288168&Signature=rTxbEDEHLvLX6LBbndpqvdOzGNATwMDsleUuO16MKHV3DOV2DB9WA946wNFB%2FZrmjmINhJiBokEAFo9wfM5Nji0pK0Pw1Oc676USq0EgoimOLXHU%2FJNhIoN5lSZ5OBdB1bGtComWjrqqipEtapJxYuzwu3%2FGMnugQLNGQ6TdAFZQlr%2FlMxt8WkneXc9Xe8%2BLtwRG4RDBlYA%2BKFlfae0WI2dL1taSG4oDlQal3q7Wxldvz7vpoQzTsgMGYP6hTzqIwHABQo3oMHFBpTztOTcmKNST%2F2SGnzi%2F8xHpZr2fNJ%2Butfuy9Il%2B4XL2wbDeFo2pahSdLxnbqPifBwOUNFtFtw%3D%3D",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_replication_observations"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb1465f4a971f6d5bb3dca",
+    "name": "data_bootstrap_gpt35.dta",
+    "version": 1,
+    "bytes": 173035,
+    "url": "https://osf.io/download/8z35s/",
+    "upstream_hashes": {
+      "md5": "e3dddbe5e5f3a6b392bc8dbfbca4b62d",
+      "sha256": "bdf84660f97002562ebad01f9d5b0c47ee447b367431c0700ecdc80a2dddd7e8"
+    },
+    "status": "verified",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "retrieved_at_utc": "2026-09-13T08:28:34.021362+00:00",
+    "sha256": "bdf84660f97002562ebad01f9d5b0c47ee447b367431c0700ecdc80a2dddd7e8",
+    "local_path": "data/raw/pnas_2025/data_bootstrap_gpt35.dta",
+    "resolved_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/bdf84660f97002562ebad01f9d5b0c47ee447b367431c0700ecdc80a2dddd7e8?response-content-disposition=attachment%3B%20filename%3D%22data_bootstrap_gpt35.dta%22%3B%20filename%2A%3DUTF-8%27%27data_bootstrap_gpt35.dta&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1789288173&Signature=M%2Fqij2P8gcMvqnAYMGOutFNDsVLH43gNVhpb3wDnpvSPbJcYOaqjIxASmuyFCuXfvALf3dJISFshV5J9T9vTrgFea3Rw5AYp21MoRKTRIRujjGp37GdzM21ykHd9iUvVyPAEH0ThVK9qF%2BclMcqDhQiFZHnngtU9ddKpxnsarVwT89Kl3U7P88kiJzpQTnoAuqs%2BAhFi2BcfDZ0%2BIsJk37bYnlO7cO4ZkdGH4eKo3NLtxVh8TmLCbQIZ7Zn6Jv%2FBIl6SZAiBHgNZvvInD2N7TOEZ3oJjNpKgYrsL8umJg%2Foyrz27hIsqZBU88P48QK0Xw6lEkDd0ClaCj0G8qNFqlQ%3D%3D",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_stored_estimates"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb152749eb2fa12bbb3703",
+    "name": "data_gpt35_baseline.dta",
+    "version": 1,
+    "bytes": 18703831,
+    "url": "https://osf.io/download/zut79/",
+    "upstream_hashes": {
+      "md5": "81b9770c59afc4b1ff9dd1b72acfbbdd",
+      "sha256": "4f5e8a256c703b9b118178fa022243e6cd56bbe5d5430daa15c8680ee774538a"
+    },
+    "status": "verified",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "retrieved_at_utc": "2026-09-13T08:28:37.672890+00:00",
+    "sha256": "4f5e8a256c703b9b118178fa022243e6cd56bbe5d5430daa15c8680ee774538a",
+    "local_path": "data/raw/pnas_2025/data_gpt35_baseline.dta",
+    "resolved_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/4f5e8a256c703b9b118178fa022243e6cd56bbe5d5430daa15c8680ee774538a?response-content-disposition=attachment%3B%20filename%3D%22data_gpt35_baseline.dta%22%3B%20filename%2A%3DUTF-8%27%27data_gpt35_baseline.dta&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1789288174&Signature=uYOteHSuMsiY6E4uYMBNIubtxw7tqRNG8yxd8ywwBmVoaH1YUmZ6Mruja7vZH0h5wts%2F0NsK2xp%2BMuFiYyNCRLION%2FsK7yriv8wCvMumANXOFFY4EWiLyfaNXh2KJeIAgDM2Dl9Rxd9n4bPP%2FtqZ96Ps6i9dJdaBOqFpwqeanzU%2BI%2BG0wiXN0cb9wOW%2Fno2pbeGu6G7V0%2B3C15bpZ%2BwCJphzjJmv3WW3HlfM%2FM62HDcMdjQwJStGOh51IcMoc8Sj8PEYMtRS9Fmg3qbdvtHoOi9sf54FYAQWCyKCe5tUw9EIvMJ5x7KhAtyVf36Qfht2kjoLbNLu9fTt05yjX8ScaA%3D%3D",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_replication_observations"
+  },
+  {
+    "dataset_id": "pnas_2025",
+    "file_id": "67cb152e79b5f16206040969",
+    "name": "data_magnitude_gpt35.dta",
+    "version": 1,
+    "bytes": 29395,
+    "url": "https://osf.io/download/gc63s/",
+    "upstream_hashes": {
+      "md5": "80454094f2b3d5b8e0826d1e42f0f720",
+      "sha256": "9c86b22c5a3acc05518a159ab5a883efe8f6bf41b1437905afc22c519a75dffc"
+    },
+    "status": "verified",
+    "paper_id": "an2025measuring",
+    "dataset_url": "https://osf.io/4dahv/",
+    "license": "MIT (OSF project metadata)",
+    "retrieved_at_utc": "2026-09-13T08:28:39.781709+00:00",
+    "sha256": "9c86b22c5a3acc05518a159ab5a883efe8f6bf41b1437905afc22c519a75dffc",
+    "local_path": "data/raw/pnas_2025/data_magnitude_gpt35.dta",
+    "resolved_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/9c86b22c5a3acc05518a159ab5a883efe8f6bf41b1437905afc22c519a75dffc?response-content-disposition=attachment%3B%20filename%3D%22data_magnitude_gpt35.dta%22%3B%20filename%2A%3DUTF-8%27%27data_magnitude_gpt35.dta&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1789288179&Signature=v7mtOnHZsdF7bD%2BNBNMK1hrZ6MWxwv1FHdHi72HZaPgUBmvy4rj0NViUQe5XCDrdq2zsYIef5Oy3ei1IFI6Qe99jofzfK5n9zS5M0ig4Hduj9n8K8nvjyuURrTu9bLFsCl2Antz%2FYZA%2B6ddR5DVK7Dfd1NBzP4OX%2F%2Fb4UNGBnK1OMEtPFub5msiVTeOM5iT1zCFar4C%2FR4B%2FkMHEU9ILJmRGqye60shOkjtpNlHvqJek7IFHbTImrZFc3qW%2B6Bc1vw2hFws2zKyrHM%2FjFIDpDb1stQP0WmM1N8Kjv2FX63mkJ4%2F%2BVUnYxgkHkPc%2FgVpoSsKuUtnm7ZpW6kWAtHb65Q%3D%3D",
+    "source_metadata": "data/metadata/osf_files_20260913.json",
+    "metadata_version": 1,
+    "content_role": "author_stored_estimates"
+  },
+  {
+    "dataset_id": "rozado_2025",
+    "paper_id": "rozado2025gender",
+    "related_publication_doi": "10.7717/peerj-cs.3628",
+    "dataset_url": "https://zenodo.org/records/17173798",
+    "name": "code.rar",
+    "version": "v4 (previous official page observation)",
+    "bytes": null,
+    "display_size_mb": 1.0,
+    "upstream_hashes": {
+      "md5": "8ed9d587a601b3374bb94cc10084e5e9"
+    },
+    "status": "download_failed",
+    "url": "https://zenodo.org/records/17173798/files/code.rar?download=1",
+    "license": null,
+    "sha256": null,
+    "local_path": null,
+    "note": "Metadata/API timeout; code download timeout with 0 bytes. MD5 and approximate size from previous official-page inspection; not verified locally."
+  },
+  {
+    "dataset_id": "rozado_2025",
+    "paper_id": "rozado2025gender",
+    "related_publication_doi": "10.7717/peerj-cs.3628",
+    "dataset_url": "https://zenodo.org/records/17173798",
+    "name": "experimental data.rar",
+    "version": "v4 (previous official page observation)",
+    "bytes": null,
+    "display_size_mb": 280.7,
+    "upstream_hashes": {
+      "md5": "3010c8031c88615d8f26709a1fcc8668"
+    },
+    "status": "not_downloaded",
+    "url": null,
+    "license": null,
+    "sha256": null,
+    "local_path": null,
+    "note": "Metadata/API timeout; code download timeout with 0 bytes. MD5 and approximate size from previous official-page inspection; not verified locally."
+  }
+]

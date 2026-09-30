@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "scope": "computed_descriptive; no significance tests or adjusted effects",
+  "script_sha256": "1fb7a0006bf0fabfc9f69073d89128cb6392420cb5bf55768253506abaef881e",
+  "cleaning_report_sha256": "0b49d16a8692296f1c4bc75d730e30914791ecfe69ed45baafd0f473f2b32d67",
+  "python": "3.12.3",
+  "pandas": "3.0.5",
+  "matplotlib": "3.11.2",
+  "inputs": [
+    {
+      "file": "data/processed/pnas_2025/baseline.csv.gz",
+      "sha256": "335fe1b8e10d596612e1e8d60c2256161f5a0dc681077b9eaeae74f3255171f6",
+      "source_file": "data_gpt35_baseline.dta",
+      "rows": 332895,
+      "joint_valid_rows": 332894
+    },
+    {
+      "file": "data/processed/pnas_2025/four_model_scores.csv.gz",
+      "sha256": "b99f43ccda5c3bf59f188494f0b824cf5152e16282b0c1df7a50a3f3f843a756",
+      "source_file": "data_score_4models.dta",
+      "rows": 332257,
+      "joint_valid_rows": 295679
+    }
+  ],
+  "outputs": [
+    {
+      "file": "figures/pnas_2025/eda/missing_by_intersection.png",
+      "sha256": "a3c64e6730fef3e4c9f4040a7a0d727a57e524bab7cdcf73fe7e5dd928933ccb"
+    },
+    {
+      "file": "figures/pnas_2025/eda/missing_by_intersection.svg",
+      "sha256": "bc56b36ec56cdc923c36f64f26044f74e7c01fb795cfd06582af0481b95eefcb"
+    },
+    {
+      "file": "figures/pnas_2025/eda/occupation_composition.png",
+      "sha256": "364c8cdb4dff0442d5747a01846b2e9a2f1a9e1864b68f8e85e0069275507dfd"
+    },
+    {
+      "file": "figures/pnas_2025/eda/occupation_composition.svg",
+      "sha256": "a9cc17636c19a8f89783784863f0361ecb5c131ab172023bc1e632dd6f258cf5"
+    },
+    {
+      "file": "figures/pnas_2025/eda/score_distributions.png",
+      "sha256": "35a5e379e2bd920f544dfadb6d4fb401ea1243f236c6847b94795abb77a313d5"
+    },
+    {
+      "file": "figures/pnas_2025/eda/score_distributions.svg",
+      "sha256": "a58cf921a2f11126383e71fd4c5a9e0a02d3e223f379a604a06678f2dc75b8fa"
+    },
+    {
+      "file": "results/pnas_2025/eda/intersection.csv",
+      "sha256": "ec6042d4bbdb85dd0d708d575cceac3beeaed5c4ebf44750605dc28ced9ae498"
+    },
+    {
+      "file": "results/pnas_2025/eda/missing_patterns.csv",
+      "sha256": "a1238c83c5848f338970454e46d76750bab509688a122473f160bb8441fadb83"
+    },
+    {
+      "file": "results/pnas_2025/eda/occupation.csv",
+      "sha256": "b3095494e1131f813cb5dfdc0926aa87fc057a097aab18dcd66b8d083ce8ef71"
+    },
+    {
+      "file": "results/pnas_2025/eda/overall.csv",
+      "sha256": "d89df453595032f107296548bb677bb6696322a361099d0ec496915025185631"
+    },
+    {
+      "file": "results/pnas_2025/eda/score_histogram.csv",
+      "sha256": "12f31db889a93381b159649df806571ba412ce7a16e722fc07cb3f12a096cb49"
+    }
+  ]
+}

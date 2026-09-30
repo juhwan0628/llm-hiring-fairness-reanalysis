@@ -1,0 +1,33 @@
+{
+  "status": "cause_unresolved",
+  "comparison_file": "results/pnas_2025/analysis/reported_computed.csv",
+  "comparison_sha256": "5edb53925e1ca0c559130911d9857327b2800fe868e42921479bf1325269593e",
+  "author_code_sha256": "91bbbca2cfe700c425de4bdb2fba837a7fa1dbc58ad1f347aa93300806cb249e",
+  "author_readme_file": "data/raw/pnas_2025/ReadMe.txt",
+  "author_readme_sha256": "2f51022e2278d7a871ebf4ef211797276bed1b4126039e28e248266d9916f75d",
+  "author_stata_version_evidence": [
+    {
+      "line": 7,
+      "text": "Stata/MP 16.0 is used to run the codes."
+    }
+  ],
+  "computed_ci_lower": 0.2739499600424686,
+  "reported_ci_lower": 0.274,
+  "computed_float64_four_decimals": "0.2739",
+  "computed_float32_four_decimals": "0.2739",
+  "float32_ci_lower": 0.2739499509334564,
+  "author_annotation_line": 1003,
+  "author_annotation_text": "text(1.66 0.2740 \"0.2740\", place(s) size(tiny)) ///",
+  "stata_version_commands": [],
+  "ci_storage_declarations": [
+    {
+      "line": 16,
+      "text": "generate cilb = ."
+    },
+    {
+      "line": 632,
+      "text": "generate cilb = ."
+    }
+  ],
+  "interpretation": "Casting our lower bound to float32 alone does not reproduce 0.2740. ReadMe specifies Stata/MP 16.0; reghdfe version and execution log remain unavailable. Original comparison and tolerance unchanged; no solver-sensitivity rerun."
+}

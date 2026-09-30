@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+*.part
+.env
+.env.*
+.DS_Store
+
+# Third-party / large research data are intentionally not redistributed.
+data/raw/
+data/interim/
+data/processed/
+data/interim-archive.tar.gz
+papers/
+*.rar
+*.dta
+
+# Row-level derived outputs are kept local; public repo contains aggregates only.
+**/score_*_sample.csv.gz
+**/sample.csv.gz
+**/pair_outcomes.csv.gz
+**/matched_pair_changes.csv.gz
+data/metadata/rozado_2026/name_pair_rows.csv.gz
+
+# Internal agent/development artifacts.
+docs/superpowers/
+ai_hiring_fairness_assignment_pack.zip
