@@ -1,0 +1,32 @@
+name: Import public snapshot
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download verified snapshot
+        run: |
+          curl --fail --location --retry 3 'http://158.180.69.207/llm-hiring-fairness-reanalysis-3dab800b79fd0dcf8fd10ddb.tar.gz' -o /tmp/public_snapshot.tar.gz
+          echo '07780c1a1f80d3519b03341b636e69950ef533dfd9139355d7f461ec2ea93651  /tmp/public_snapshot.tar.gz' | sha256sum -c -
+      - name: Replace repository contents
+        run: |
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          tar -xzf /tmp/public_snapshot.tar.gz -C .
+      - name: Commit public snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Publish curated LLM hiring fairness reanalysis' || exit 0
+          git push origin HEAD:main
